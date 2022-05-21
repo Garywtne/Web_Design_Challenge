@@ -1,0 +1,1 @@
+The Latitude vs Humidity Plot shows no clear correlation between proximity to the equator and higher levels of humidity but there is noticably more cities with low humidity in the northern hemipshere but this could be as a result of the city selection.

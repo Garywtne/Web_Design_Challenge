@@ -1,0 +1,1 @@
+The Latitude vs. Wind speed plot shows no correlation between proximity to the equator and wind speed.

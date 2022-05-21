@@ -1,0 +1,38 @@
+.navbar .navbar-nav {
+    font-weight: bold;
+    font-size: 1.1em;
+   }
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight:bold;
+    font-size: 1.5em;
+  }
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #098b6b;
+}
+
+h1 {
+margin-bottom: 30px;
+color: #098b6b;
+}
+
+@media (min-width: 768px) { 
+
+body {
+  background: whitesmoke;
+}
+
+.navbar .container-fluid {
+  background-color:white;
+}
+
+.navbar .navbar-brand {
+ background-color:#098b6b;
+}
+
+}

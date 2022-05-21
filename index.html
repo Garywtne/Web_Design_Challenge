@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Web Design Challenge - Home page</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.1/dist/cerulean/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/wdc.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-primary mb-5 p-0">
+        <div class="container-fluid">
+            <a class="navbar-brand p-3" href="index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Plots
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="visualizations/01_vs_Cloudiness.html">Latitude vs Cloudiness</a></li>
+                      <li><a class="dropdown-item" href="visualizations/02_vs_Humidity.html">Latitude vs Humidity</a></li>
+                      <li><a class="dropdown-item" href="visualizations/03_vs_Temperature.html">Latitude vs Max Temperature</a></li>
+                      <li><a class="dropdown-item" href="visualizations/04_vs_Wind_Speed.html">Latitude vs Wind Speed</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="visualizations/06_Comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="visualizations/05_Data_table.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="container-md">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="bg-white p-2">
+              <h1>Summary: Latitude vs X.</h1>
+            <hr/>
+            <p><img class="float-start" src="assets/images/01_Latitude_vs_Cloudiness.png" alt="Latitude vs Cloudiness" width="200px", height="200px"><p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To acomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+               <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+               </p>
+            </div>
+          </div>
+    
+          <div class="col-md-4 text-break">
+            <div class="bg-white p-2">
+              <h1>Visualisations</h1>
+              <hr/>
+                <a href="visualizations/01_vs_Cloudiness.html"><img src="assets/images/01_Latitude_vs_Cloudiness.png" width="150px" height="150px"></a>
+                <a href="visualizations/02_vs_Humidity.html"><img src="assets/images/02_Latitude_vs_Humidity.png" width="150px" height="150px"></a>
+                <a href="visualizations/03_vs_Temperature.html"><img src="assets/images/03_Latitude_vs_Temperature.png" width="150px" height="150px"></a>
+                <a href="visualizations/04_vs_Wind_Speed.html"><img src="assets/images/04_Latitude_vs_Wind_Speed.png" width="150px" height="150px"></a>
+            </div>
+          </div>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    </body>
+  
+    </html>
